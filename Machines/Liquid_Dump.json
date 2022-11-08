@@ -1,0 +1,168 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Allowsliquiddumpingintotheocean.Someliquidswillcause[[WaterPollution]]whichcanaffecthealthandhappinessofyourpeople.",
+        "Designation": "WasteManagement",
+        "Electricity": "None",
+        "Footprint": "3x2onshore<br/>14x5overocean",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 20.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "BasicDiesel",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": 0,
+        "Workers": 1
+    },
+    "name": "LiquidDump",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [],
+            "time": 2
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Brine",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [],
+            "time": 2
+        },
+        {
+            "inputs": [
+                {
+                    "name": "WasteWater",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "WaterPollution",
+                    "qty": 2.0
+                }
+            ],
+            "time": 2
+        },
+        {
+            "inputs": [
+                {
+                    "name": "SourWater",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "WaterPollution",
+                    "qty": 4.0
+                }
+            ],
+            "time": 2
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Acid",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "WaterPollution",
+                    "qty": 4.0
+                }
+            ],
+            "time": 2
+        },
+        {
+            "inputs": [
+                {
+                    "name": "ToxicSlurry",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "WaterPollution",
+                    "qty": 5.0
+                }
+            ],
+            "time": 2
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Seawater",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [],
+            "time": 2
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Fertilizer(Organic)",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "WaterPollution",
+                    "qty": 1.0
+                }
+            ],
+            "time": 4
+        },
+        {
+            "inputs": [
+                {
+                    "name": "FertilizerI",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "WaterPollution",
+                    "qty": 1.0
+                }
+            ],
+            "time": 4
+        },
+        {
+            "inputs": [
+                {
+                    "name": "FertilizerII",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "WaterPollution",
+                    "qty": 2.0
+                }
+            ],
+            "time": 4
+        }
+    ]
+}

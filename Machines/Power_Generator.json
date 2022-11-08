@@ -1,0 +1,56 @@
+{
+    "meta": {
+        "BoostByUnity": "no",
+        "Cargo": 0,
+        "Description": "Converts[[MechanicalPower]]to[[Electricity]].Thesloweritspinstheloweritsefficiencyis.",
+        "Designation": "PowerProduction",
+        "Electricity": "300KW",
+        "Footprint": "5x2",
+        "Image": 0,
+        "Maintenance": 1,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 20.0
+                },
+                {
+                    "name": "Electronics",
+                    "qty": 20.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "PowerGenerationII",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "1",
+        "Variants": "[[PowerGeneratorII]]",
+        "Workers": 0
+    },
+    "name": "PowerGenerator",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "MechanicalPower",
+                    "qty": 500.0
+                },
+                {
+                    "name": "KW",
+                    "qty": -1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Electricity",
+                    "qty": 300.0
+                }
+            ],
+            "time": 0
+        }
+    ]
+}

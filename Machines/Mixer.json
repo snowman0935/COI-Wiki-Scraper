@@ -1,0 +1,310 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "",
+        "Designation": "GeneralMachines",
+        "Electricity": "20KW",
+        "Footprint": "6x5*",
+        "Image": "",
+        "Maintenance": 2,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "SulfurProcessing",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "",
+        "Variants": "",
+        "Workers": 5
+    },
+    "name": "Mixer",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Sand",
+                    "qty": 16.0
+                },
+                {
+                    "name": "Limestone",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Salt",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "GlassMix",
+                    "qty": 12.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Sand",
+                    "qty": 16.0
+                },
+                {
+                    "name": "Limestone",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Salt",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Acid",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "GlassMix",
+                    "qty": 16.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Sulfur",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Acid",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Sulfur",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Limestone",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Slag",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Salt",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Brine",
+                    "qty": 16.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Gravel",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Sand",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Coal",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "FilterMedia",
+                    "qty": 12.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Compost",
+                    "qty": 12.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Fertilizer(organic)",
+                    "qty": 16.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "FertilizerI",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Limestone",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Sulfur",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "FertilizerII",
+                    "qty": 10.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Potato",
+                    "qty": 10.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AnimalFeed",
+                    "qty": 8.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Wheat",
+                    "qty": 10.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AnimalFeed",
+                    "qty": 16.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Corn",
+                    "qty": 10.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AnimalFeed",
+                    "qty": 12.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Soybean",
+                    "qty": 10.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AnimalFeed",
+                    "qty": 18.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "AnimalFeed",
+                    "qty": 6.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Compost",
+                    "qty": 3.0
+                }
+            ],
+            "time": 60
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Biomass",
+                    "qty": 6.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Compost",
+                    "qty": 4.0
+                }
+            ],
+            "time": 60
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MeatTrimmings",
+                    "qty": 6.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Compost",
+                    "qty": 2.0
+                }
+            ],
+            "time": 60
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "",
+        "Designation": "GeneralMachines",
+        "Electricity": "80KW",
+        "Footprint": "6x5*",
+        "Image": "",
+        "Maintenance": 6,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIV",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "3",
+        "Variants": "[[ConcreteMixer]]<br/>[[ConcreteMixerII]]<br/>",
+        "Workers": 10
+    },
+    "name": "ConcreteMixerIII",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Cement",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Sand",
+                    "qty": 4.0
+                },
+                {
+                    "name": "SlagCrushed",
+                    "qty": 12.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConcreteSlab",
+                    "qty": 16.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Cement",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Sand",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Gravel",
+                    "qty": 12.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConcreteSlab",
+                    "qty": 16.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": "infoicon|MaintenanceI",
+        "Description": "Convertsproductsinto[[maintenance]]whichisdistributedtoallmachines,buildings,and[[:Category:Vehicles|vehicles]]thatneedit.Importantasifthereisnotenoughmaintenance,vehiclesandmachinescanbreakdowntemporarily.",
+        "Designation": "Buildings",
+        "Electricity": "60KW",
+        "Footprint": "7x6",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 50.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "MaintenanceII(research)",
+        "ResearchSpeed": 0,
+        "Storage": "2880",
+        "Tier": "2",
+        "Variants": "[[MaintenanceDepot(Basic)]]<br/>[[MaintenanceIIDepot]]<br/>[[MaintenanceIIIDepot]]",
+        "Workers": 20
+    },
+    "name": "MaintenanceDepot",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "MechanicalParts",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Electronics",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MaintenanceI",
+                    "qty": 160.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MechanicalParts",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Electronics",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MaintenanceI",
+                    "qty": 160.0
+                },
+                {
+                    "name": "Recyclables",
+                    "qty": 5.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

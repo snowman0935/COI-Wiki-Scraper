@@ -1,0 +1,194 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Produceshighpressuresteambyburninggas.",
+        "Designation": "WaterExtraction&Processing",
+        "Electricity": "None",
+        "Footprint": "5x4",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 50.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "GasCombustion",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "2",
+        "Variants": "[[Boiler(Coal)]]</br>[[Boiler(Electric)]]",
+        "Workers": 4
+    },
+    "name": "Boiler(Gas)",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 8.0
+                },
+                {
+                    "name": "HeavyOil",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SteamHi",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 10.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 8.0
+                },
+                {
+                    "name": "MediumOil",
+                    "qty": 6.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SteamHi",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 10.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 8.0
+                },
+                {
+                    "name": "LightOil",
+                    "qty": 6.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SteamHi",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 8.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Naphtha",
+                    "qty": 6.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SteamHi",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 8.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Ethanol",
+                    "qty": 6.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SteamHi",
+                    "qty": 8.0
+                },
+                {
+                    "name": "CarbonDioxide",
+                    "qty": 8.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 8.0
+                },
+                {
+                    "name": "FuelGas",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SteamHi",
+                    "qty": 8.0
+                },
+                {
+                    "name": "CarbonDioxide",
+                    "qty": 8.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Hydrogen",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SteamHi",
+                    "qty": 8.0
+                },
+                {
+                    "name": "SteamDepleted",
+                    "qty": 2.0
+                }
+            ],
+            "time": 10
+        }
+    ]
+}

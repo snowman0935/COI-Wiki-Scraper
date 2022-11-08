@@ -1,0 +1,52 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Castsmoltenmaterialsintoslabs.Thisonealsoutilizeswaterforcoolingtospeeduptheprocess.",
+        "Designation": "Metallurgy&Smelting",
+        "Electricity": "None",
+        "Footprint": "7x5",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "AdvancedSmelting",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "2",
+        "Variants": "[[CooledCaster]]",
+        "Workers": 6
+    },
+    "name": "CooledCasterII",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "MoltenSteel",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Steel",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

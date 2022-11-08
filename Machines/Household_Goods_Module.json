@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "BoostByUnity": 0,
+        "Cargo": "infoicon|HouseholdGoods",
+        "Description": "Provides[[HouseholdGoods]]foranattached[[settlement]].ProvidingHouseholdGoodstoasettlementgeneratesextra[[Unity]].",
+        "Designation": "Housing&Services",
+        "Electricity": "30KW",
+        "Footprint": "11x7",
+        "Image": 0,
+        "Maintenance": 6,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 60.0
+                },
+                {
+                    "name": "Glass",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "GlassMaking&Goods",
+        "ResearchSpeed": 0,
+        "Storage": "240",
+        "Tier": "",
+        "Variants": "[[FoodMarket]]<br/>[[Transformer]]<br/>[[WaterFacility]]<br/>[[HouseholdAppliancesModule]]<br/>[[ConsumerElectronicsModule]]",
+        "Workers": 16
+    },
+    "name": "HouseholdGoodsModule",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "HouseholdGoods",
+                    "qty": -1.0
+                }
+            ],
+            "outputs": [],
+            "time": 60
+        }
+    ]
+}

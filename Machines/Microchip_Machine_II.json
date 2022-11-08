@@ -1,0 +1,293 @@
+{
+    "meta": {
+        "BoostByUnity": "no",
+        "Cargo": 0,
+        "Description": "",
+        "Designation": "GeneralMachines",
+        "Electricity": "60KW",
+        "Footprint": "7x4",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": "10",
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIV",
+                    "qty": 160.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "MicrochipProductionII",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "2",
+        "Variants": "[[MicrochipMachine]]",
+        "Workers": 8
+    },
+    "name": "MicrochipMachineII",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "SiliconWafer",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Acid",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MicrochipsStage1A",
+                    "qty": 1.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MicrochipsStage1A",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Copper",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Plastic",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MicrochipsStage1B",
+                    "qty": 1.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MicrochipsStage1B",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Gold",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MicrochipsStage1C",
+                    "qty": 1.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MicrochipsStage1C",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Acid",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MicrochipsStage2A",
+                    "qty": 1.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MicrochipsStage2A",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Copper",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Plastic",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MicrochipsStage2B",
+                    "qty": 1.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MicrochipsStage2B",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Gold",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MicrochipsStage2C",
+                    "qty": 1.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MicrochipsStage2C",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Acid",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MicrochipsStage3A",
+                    "qty": 1.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MicrochipsStage3A",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Copper",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Plastic",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MicrochipsStage3B",
+                    "qty": 1.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MicrochipsStage3B",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Gold",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MicrochipsStage3C",
+                    "qty": 1.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MicrochipsStage3C",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Acid",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MicrochipsStage4A",
+                    "qty": 1.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MicrochipsStage4A",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Copper",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Plastic",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MicrochipsStage4B",
+                    "qty": 1.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MicrochipsStage4B",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Gold",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Microchips",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

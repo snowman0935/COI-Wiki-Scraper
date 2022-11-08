@@ -1,0 +1,67 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Castsmoltenmaterialsintoslabs.",
+        "Designation": "Metallurgy&Smelting",
+        "Electricity": "None",
+        "Footprint": "7x5",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 40.0
+                },
+                {
+                    "name": "Steel",
+                    "qty": 20.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "AdvancedSmelting",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "2",
+        "Variants": "[[MetalCaster]]",
+        "Workers": 3
+    },
+    "name": "MetalCasterII",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "MoltenIron",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Iron",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MoltenCopper",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ImpureCopper",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

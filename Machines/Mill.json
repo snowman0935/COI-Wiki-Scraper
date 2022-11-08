@@ -1,0 +1,113 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "",
+        "Designation": "FoodProduction",
+        "Electricity": "30KW",
+        "Footprint": "5x8",
+        "Image": "",
+        "Maintenance": 2,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "",
+        "Variants": "",
+        "Workers": 5
+    },
+    "name": "Mill",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Wheat",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Flour",
+                    "qty": 8.0
+                },
+                {
+                    "name": "AnimalFeed",
+                    "qty": 1.0
+                }
+            ],
+            "time": 30
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Soybean",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "CookingOil",
+                    "qty": 3.0
+                },
+                {
+                    "name": "AnimalFeed",
+                    "qty": 4.0
+                }
+            ],
+            "time": 30
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Canola",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "CookingOil",
+                    "qty": 6.0
+                },
+                {
+                    "name": "AnimalFeed",
+                    "qty": 2.0
+                }
+            ],
+            "time": 30
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Corn",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "CornMash",
+                    "qty": 6.0
+                },
+                {
+                    "name": "AnimalFeed",
+                    "qty": 2.0
+                }
+            ],
+            "time": 40
+        }
+    ]
+}

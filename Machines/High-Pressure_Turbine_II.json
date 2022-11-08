@@ -1,0 +1,52 @@
+{
+    "meta": {
+        "BoostByUnity": "no",
+        "Cargo": 0,
+        "Description": "Useshighpressuresteamtocreatemechanicalpower.",
+        "Designation": "PowerProduction",
+        "Electricity": "None",
+        "Footprint": "7x5",
+        "Image": 0,
+        "Maintenance": 3,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 80.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "PowerGenerationIV",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "2",
+        "Variants": "[[High-pressureTurbine]]</br>[[Low-pressureTurbine]]</br>[[Low-pressureTurbineII]]",
+        "Workers": 4
+    },
+    "name": "High-pressureTurbineII",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "SteamHi",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MechanicalPower",
+                    "qty": 2.0
+                },
+                {
+                    "name": "SteamLo",
+                    "qty": 8.0
+                }
+            ],
+            "time": 10
+        }
+    ]
+}

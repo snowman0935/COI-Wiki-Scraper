@@ -1,0 +1,171 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Transformsdifferentfueltypesbetweeneachothertohelpwithconsumptionimbalance.",
+        "Designation": "CrudeOilRefining",
+        "Electricity": "40KW",
+        "Footprint": "9x6*",
+        "Image": 0,
+        "Maintenance": 4,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 100.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "Biofuel",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "",
+        "Workers": 12
+    },
+    "name": "CrackingUnit",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "HeavyOil",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Hydrogen",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Diesel",
+                    "qty": 8.0
+                },
+                {
+                    "name": "FuelGas",
+                    "qty": 2.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "HeavyOil",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Hydrogen",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Naphtha",
+                    "qty": 6.0
+                },
+                {
+                    "name": "FuelGas",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Naphtha",
+                    "qty": 6.0
+                },
+                {
+                    "name": "Hydrogen",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Diesel",
+                    "qty": 8.0
+                },
+                {
+                    "name": "FuelGas",
+                    "qty": 2.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Diesel",
+                    "qty": 8.0
+                },
+                {
+                    "name": "SteamHi",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Naphtha",
+                    "qty": 6.0
+                },
+                {
+                    "name": "SourWater",
+                    "qty": 1.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Naphtha",
+                    "qty": 8.0
+                },
+                {
+                    "name": "SteamHi",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "FuelGas",
+                    "qty": 10.0
+                },
+                {
+                    "name": "SourWater",
+                    "qty": 2.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "FuelGas",
+                    "qty": 12.0
+                },
+                {
+                    "name": "Oxygen",
+                    "qty": 12.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Diesel",
+                    "qty": 6.0
+                },
+                {
+                    "name": "CarbonDioxide",
+                    "qty": 12.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

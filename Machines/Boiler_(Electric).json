@@ -1,0 +1,52 @@
+{
+    "meta": {
+        "BoostByUnity": "no",
+        "Cargo": 0,
+        "Description": "Produceshighpressuresteambyboilingwater.Basicallyagiantkettle.Butnotrecommendedforteapreparation.",
+        "Designation": "WaterExtraction&Processing",
+        "Electricity": "1.3MW",
+        "Footprint": "5x4",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": "2",
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 60.0
+                },
+                {
+                    "name": "ElectronicsII",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "ElectricBoiler",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "3",
+        "Variants": "[[Boiler(Coal)]]</br>[[Boiler(Gas)]]",
+        "Workers": 2
+    },
+    "name": "Boiler(Electric)",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SteamHi",
+                    "qty": 4.0
+                }
+            ],
+            "time": 10
+        }
+    ]
+}

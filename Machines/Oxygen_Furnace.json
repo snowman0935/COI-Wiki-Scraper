@@ -1,0 +1,56 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Createssteelbyblowingpure[[Oxygen]]underhigh-pressureinto[[MoltenIron]],loweringitscarboncontent.",
+        "Designation": "Metallurgy&Smelting",
+        "Electricity": "25KW",
+        "Footprint": "7x5",
+        "Image": 0,
+        "Maintenance": 4,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 60.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "SteelSmelting",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "1",
+        "Variants": "[[OxygenFurnaceII]]",
+        "Workers": 6
+    },
+    "name": "OxygenFurnace",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "MoltenIron",
+                    "qty": 16.0
+                },
+                {
+                    "name": "Oxygen",
+                    "qty": 12.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MoltenSteel",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 16.0
+                }
+            ],
+            "time": 40
+        }
+    ]
+}

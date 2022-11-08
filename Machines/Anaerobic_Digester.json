@@ -1,0 +1,128 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Performsaprocessinwhichmicroorganismsbreakdownbiodegradablematerialintheabsenceof[[Oxygen]]toproducefuelsand[[Fertilizer(organic)|Fertilizer]].",
+        "Designation": "WasteManagement",
+        "Electricity": "10KW",
+        "Footprint": "8x6*",
+        "Image": 0,
+        "Maintenance": 1,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 50.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "WastewaterTreatmentII",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": 0,
+        "Workers": 4
+    },
+    "name": "AnaerobicDigester",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Sludge",
+                    "qty": 12.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "FuelGas",
+                    "qty": 5.0
+                },
+                {
+                    "name": "Compost",
+                    "qty": 1.0
+                }
+            ],
+            "time": 60
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Potato",
+                    "qty": 14.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "FuelGas",
+                    "qty": 6.0
+                },
+                {
+                    "name": "Compost",
+                    "qty": 1.0
+                }
+            ],
+            "time": 60
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Wheat",
+                    "qty": 11.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "FuelGas",
+                    "qty": 10.0
+                },
+                {
+                    "name": "Compost",
+                    "qty": 1.0
+                }
+            ],
+            "time": 90
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MeatTrimmings",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "FuelGas",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Compost",
+                    "qty": 2.0
+                }
+            ],
+            "time": 120
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Vegetables",
+                    "qty": 14.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "FuelGas",
+                    "qty": 6.0
+                },
+                {
+                    "name": "Compost",
+                    "qty": 1.0
+                }
+            ],
+            "time": 60
+        }
+    ]
+}

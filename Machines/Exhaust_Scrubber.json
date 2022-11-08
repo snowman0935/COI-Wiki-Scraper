@@ -1,0 +1,64 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Filters75%ofpollutantsfromhot[[Exhaust]]gassesbyextractingusefulresources.",
+        "Designation": "WasteManagement",
+        "Electricity": "50KW",
+        "Footprint": "8x6*",
+        "Image": 0,
+        "Maintenance": 4,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 80.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "ExhaustFiltration",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": 0,
+        "Workers": 8
+    },
+    "name": "ExhaustScrubber",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Exhaust",
+                    "qty": 30.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Sulfur",
+                    "qty": 1.0
+                },
+                {
+                    "name": "CarbonDioxide",
+                    "qty": 12.0
+                },
+                {
+                    "name": "SteamLo",
+                    "qty": 4.0
+                },
+                {
+                    "name": "AirPollution",
+                    "qty": 4.0
+                }
+            ],
+            "time": 10
+        }
+    ]
+}

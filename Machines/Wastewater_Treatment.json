@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Convertsnotsonicewatertonicewater.Justdon'ttellthistothepeoplewhodrinkit.",
+        "Designation": "WasteManagement",
+        "Electricity": "180KW",
+        "Footprint": "8x6*",
+        "Image": 0,
+        "Maintenance": 10,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 140.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "WastewaterTreatment(research)",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": 0,
+        "Workers": 26
+    },
+    "name": "WastewaterTreatment",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "WasteWater",
+                    "qty": 80.0
+                },
+                {
+                    "name": "Sand",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Chlorine",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Water",
+                    "qty": 40.0
+                },
+                {
+                    "name": "Sludge",
+                    "qty": 12.0
+                }
+            ],
+            "time": 30
+        },
+        {
+            "inputs": [
+                {
+                    "name": "WasteWater",
+                    "qty": 80.0
+                },
+                {
+                    "name": "FilterMedia",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Chlorine",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Water",
+                    "qty": 60.0
+                },
+                {
+                    "name": "Sludge",
+                    "qty": 18.0
+                }
+            ],
+            "time": 30
+        },
+        {
+            "inputs": [
+                {
+                    "name": "ToxicSlurry",
+                    "qty": 24.0
+                },
+                {
+                    "name": "FilterMedia",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Brine",
+                    "qty": 6.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Water",
+                    "qty": 20.0
+                },
+                {
+                    "name": "Slag",
+                    "qty": 6.0
+                }
+            ],
+            "time": 30
+        }
+    ]
+}

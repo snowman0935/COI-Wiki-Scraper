@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Theentrypointforadvanced[[CrudeOil]]processing.Separatesoilintotwocomponentsforadditionalprocessingintousefulresources.",
+        "Designation": "CrudeOilRefining",
+        "Electricity": "None",
+        "Footprint": "5x5",
+        "Image": 0,
+        "Maintenance": 3,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 50.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "AdvancedDiesel",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "[[Distillation(StageII)]]</br>[[Distillation(StageIII)]]",
+        "Workers": 6
+    },
+    "name": "Distillation(StageI)",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "CrudeOil",
+                    "qty": 18.0
+                },
+                {
+                    "name": "SteamHi",
+                    "qty": 3.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MediumOil",
+                    "qty": 16.0
+                },
+                {
+                    "name": "HeavyOil",
+                    "qty": 2.0
+                },
+                {
+                    "name": "SourWater",
+                    "qty": 6.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "meta": {
+        "BoostByUnity": 0,
+        "Cargo": 0,
+        "Description": "Crushesoresintomorefinegrainedmaterialssotheycanbeusedinadvancedprocessing.",
+        "Designation": "Metallurgy&Smelting",
+        "Electricity": "30KW",
+        "Footprint": "6x4*",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 30.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "ConcreteProduction",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": 0,
+        "Workers": 2
+    },
+    "name": "Crusher",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "IronOre",
+                    "qty": 12.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "IronOreCrushed",
+                    "qty": 12.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "CopperOre",
+                    "qty": 12.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "CopperOreCrushed",
+                    "qty": 12.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Slag",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SlagCrushed",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Rock",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Gravel",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Gravel",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Sand",
+                    "qty": 8.0
+                }
+            ],
+            "time": 60
+        },
+        {
+            "inputs": [
+                {
+                    "name": "UraniumOre",
+                    "qty": 12.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "UraniumOreCrushed",
+                    "qty": 12.0
+                }
+            ],
+            "time": 60
+        },
+        {
+            "inputs": [
+                {
+                    "name": "GoldOre",
+                    "qty": 12.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "GoldOreCrushed",
+                    "qty": 12.0
+                }
+            ],
+            "time": 30
+        },
+        {
+            "inputs": [
+                {
+                    "name": "GoldOreCrushed",
+                    "qty": 24.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "GoldOrePowder",
+                    "qty": 24.0
+                }
+            ],
+            "time": 30
+        }
+    ]
+}

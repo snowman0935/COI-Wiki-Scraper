@@ -1,0 +1,87 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Allowsdistillationoflow-gradegasolinebutitisquiteinefficientandproducesalotofwaste.",
+        "Designation": "CrudeOilRefining",
+        "Electricity": "None",
+        "Footprint": "6x5",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "BasicDiesel",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "",
+        "Workers": 6
+    },
+    "name": "BasicDistiller",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "CrudeOil",
+                    "qty": 18.0
+                },
+                {
+                    "name": "Coal",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Diesel",
+                    "qty": 8.0
+                },
+                {
+                    "name": "WasteWater",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 12.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Seawater",
+                    "qty": 10.0
+                },
+                {
+                    "name": "Coal",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Water",
+                    "qty": 6.0
+                },
+                {
+                    "name": "Brine",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 2.0
+                }
+            ],
+            "time": 10
+        }
+    ]
+}

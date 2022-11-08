@@ -1,0 +1,78 @@
+{
+    "meta": {
+        "BoostByUnity": "no",
+        "Cargo": 0,
+        "Description": "Produces[[Salt]]byevaporatingresidual[[Water]]from[[Brine]].Theprocessisacceleratedbyutilizingasetofelectricheaters.",
+        "Designation": "WaterExtraction&Processing",
+        "Electricity": "60KW",
+        "Footprint": "15x9",
+        "Image": 0,
+        "Maintenance": 3,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 50.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "SaltProduction",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "[[EvaporationPond]]",
+        "Workers": 6
+    },
+    "name": "EvaporationPond(Heated)",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Seawater",
+                    "qty": 30.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Brine",
+                    "qty": 16.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Seawater",
+                    "qty": 30.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Salt",
+                    "qty": 8.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Brine",
+                    "qty": 16.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Salt",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

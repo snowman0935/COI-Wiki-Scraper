@@ -1,0 +1,183 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Smeltsvariousmaterialssuchas[[Iron]]and[[Copper]].Theoutputisa[[:Category:Moltenproducts|moltenmaterial]]thatneedstobesentvia[[MoltenChannel]]transport,forinstance,intoa[[Caster]]forfurtherprocessing.Moltenmaterialscannotbetransportedvia[[Truck]]s.",
+        "Designation": "Metallurgy&Smelting",
+        "Electricity": "None",
+        "Footprint": "9x6",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 60.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "IronSmelting(FromScrap)",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "1",
+        "Variants": "[[BlastFurnaceII]]",
+        "Workers": 8
+    },
+    "name": "BlastFurnace",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "IronScrap",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Coal",
+                    "qty": 3.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MoltenIron",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 6.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "IronOre",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Coal",
+                    "qty": 3.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MoltenIron",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Slag",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "CopperScrap",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Coal",
+                    "qty": 3.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MoltenCopper",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 6.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "CopperOre",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Coal",
+                    "qty": 3.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MoltenCopper",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Slag",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "GlassMix",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Coal",
+                    "qty": 3.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MoltenGlass",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Slag",
+                    "qty": 3.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "BrokenGlass",
+                    "qty": 12.0
+                },
+                {
+                    "name": "Coal",
+                    "qty": 3.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MoltenGlass",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 6.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

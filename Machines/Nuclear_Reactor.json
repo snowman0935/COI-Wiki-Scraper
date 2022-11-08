@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "BoostByUnity": "no",
+        "Cargo": 0,
+        "Description": "Maintainsnuclearchainreactorfromenriched[[UraniumRod]]s.Thereactionreleasedalargeamountofenergyutilizedforsteamgeneration.Thisplantcanbesetuptoeffectivelyprovideupto12MWofelectricitywhenrunningonfullpower.Bewarethatspentfuelisradioactiveandcanharmthepopulationifnotstoredinaspecializedfacility.",
+        "Designation": "PowerProduction",
+        "Electricity": "None",
+        "Footprint": "26x16*",
+        "Image": 0,
+        "Maintenance": 32,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 800.0
+                },
+                {
+                    "name": "ElectronicsII",
+                    "qty": 80.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "NuclearReactor(research)",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "",
+        "Variants": "",
+        "Workers": 80
+    },
+    "name": "NuclearReactor",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 288.0
+                },
+                {
+                    "name": "UraniumRod",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SteamHi",
+                    "qty": 288.0
+                },
+                {
+                    "name": "SpentFuel",
+                    "qty": 1.0
+                }
+            ],
+            "time": 180
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 288.0
+                },
+                {
+                    "name": "UraniumRod",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SteamHi",
+                    "qty": 288.0
+                },
+                {
+                    "name": "SpentFuel",
+                    "qty": 1.0
+                }
+            ],
+            "time": 90
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 288.0
+                },
+                {
+                    "name": "UraniumRod",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SteamHi",
+                    "qty": 288.0
+                },
+                {
+                    "name": "SpentFuel",
+                    "qty": 1.0
+                }
+            ],
+            "time": 60
+        }
+    ]
+}

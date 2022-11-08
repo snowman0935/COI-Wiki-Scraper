@@ -1,0 +1,64 @@
+{
+    "meta": {
+        "BoostByUnity": "no",
+        "Cargo": 0,
+        "Description": "Meltsmetalsviaapowerfulelectricarc.Thearcisdeployedusinggraphiteanodesthatarepartiallyspentduringtheprocessduetothehighheat.Bewarethatthefurnaceconsumesasignificantamountofpower.Itwouldbepolitytonotifyyourlocalpowerplanbeforeturningthison.",
+        "Designation": "Metallurgy&Smelting",
+        "Electricity": "750KW",
+        "Footprint": "9x6",
+        "Image": 0,
+        "Maintenance": 4,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 160.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "Silicon",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "1",
+        "Variants": "[[ArcFurnaceII]]",
+        "Workers": 8
+    },
+    "name": "ArcFurnace",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Quartz",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Coal",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Graphite",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MoltenSilicon",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Slag",
+                    "qty": 3.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 6.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

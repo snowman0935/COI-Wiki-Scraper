@@ -1,0 +1,132 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Performsgeneralchemicalproduction.",
+        "Designation": "CrudeOilRefining",
+        "Electricity": "60KW",
+        "Footprint": "7x7",
+        "Image": 0,
+        "Maintenance": 4,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "ChemicalPlant&Fertilizer",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "1",
+        "Variants": "[[ChemicalPlantII]]",
+        "Workers": 8
+    },
+    "name": "ChemicalPlant",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Ammonia",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Nitrogen",
+                    "qty": 12.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "FertilizerI",
+                    "qty": 8.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Hydrogen",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Nitrogen",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Ammonia",
+                    "qty": 4.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Nitrogen",
+                    "qty": 6.0
+                },
+                {
+                    "name": "Steel",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "NitrogenTank",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Ethanol",
+                    "qty": 5.0
+                },
+                {
+                    "name": "CookingOil",
+                    "qty": 12.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Diesel",
+                    "qty": 18.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Ethanol",
+                    "qty": 3.0
+                },
+                {
+                    "name": "Plastic",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Disinfectant",
+                    "qty": 8.0
+                }
+            ],
+            "time": 40
+        }
+    ]
+}

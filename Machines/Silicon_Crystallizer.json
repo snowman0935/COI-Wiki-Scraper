@@ -1,0 +1,52 @@
+{
+    "meta": {
+        "BoostByUnity": "no",
+        "Cargo": 0,
+        "Description": "",
+        "Designation": "Metallurgy&Smelting",
+        "Electricity": "50KW",
+        "Footprint": "4x3*",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": "5",
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIV",
+                    "qty": 30.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "MicrochipProduction",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": 0,
+        "Workers": 8
+    },
+    "name": "SiliconCrystallizer",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Silicon(poly)",
+                    "qty": 18.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SiliconWafer",
+                    "qty": 6.0
+                }
+            ],
+            "time": 60
+        }
+    ]
+}

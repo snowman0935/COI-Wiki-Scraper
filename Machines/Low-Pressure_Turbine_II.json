@@ -1,0 +1,52 @@
+{
+    "meta": {
+        "BoostByUnity": "no",
+        "Cargo": 0,
+        "Description": "Improvespowerproductionefficiencybyreusinglowpressuresteamtocreate[[MechanicalPower]].",
+        "Designation": "PowerProduction",
+        "Electricity": "None",
+        "Footprint": "7x5",
+        "Image": 0,
+        "Maintenance": 3,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 140.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "PowerGenerationIV",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "2",
+        "Variants": "[[Low-pressureTurbine]]",
+        "Workers": 6
+    },
+    "name": "Low-pressureTurbineII",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "SteamLo",
+                    "qty": 16.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MechanicalPower",
+                    "qty": 2.0
+                },
+                {
+                    "name": "SteamDepleted",
+                    "qty": 16.0
+                }
+            ],
+            "time": 10
+        }
+    ]
+}

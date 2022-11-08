@@ -1,0 +1,286 @@
+{
+    "meta": {
+        "BoostByUnity": "no",
+        "Cargo": 0,
+        "Description": "Has20%increasedcropyieldcomparedtothebasicfarm.",
+        "Designation": "FoodProduction",
+        "Electricity": "None",
+        "Footprint": "61x41",
+        "Image": 0,
+        "Maintenance": 6,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 100.0
+                },
+                {
+                    "name": "Glass",
+                    "qty": 320.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "Greenhouse(research)",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "3",
+        "Variants": "[[Farm]]<br/>[[IrrigatedFarm]]<br/>[[GreenhouseII]]",
+        "Workers": 22
+    },
+    "name": "Greenhouse",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 48.0
+                },
+                {
+                    "name": "GreenManure",
+                    "qty": 0.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Fertility",
+                    "qty": 9.0
+                }
+            ],
+            "time": 120
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 96.0
+                },
+                {
+                    "name": "Fertility",
+                    "qty": 35.400000000000006
+                },
+                {
+                    "name": "%",
+                    "qty": 180.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Potato",
+                    "qty": 73.0
+                }
+            ],
+            "time": 0
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 144.0
+                },
+                {
+                    "name": "Fertility",
+                    "qty": 54.0
+                },
+                {
+                    "name": "%",
+                    "qty": 240.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Corn",
+                    "qty": 83.0
+                }
+            ],
+            "time": 0
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 174.0
+                },
+                {
+                    "name": "Fertility",
+                    "qty": 70.80000000000001
+                },
+                {
+                    "name": "%",
+                    "qty": 360.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Wheat",
+                    "qty": 73.0
+                }
+            ],
+            "time": 0
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 128.0
+                },
+                {
+                    "name": "Fertility",
+                    "qty": 67.6
+                },
+                {
+                    "name": "%",
+                    "qty": 240.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Soybean",
+                    "qty": 28.0
+                }
+            ],
+            "time": 0
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 387.0
+                },
+                {
+                    "name": "Fertility",
+                    "qty": 152.1
+                },
+                {
+                    "name": "%",
+                    "qty": 540.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SugarCane",
+                    "qty": 220.0
+                }
+            ],
+            "time": 0
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 116.0
+                },
+                {
+                    "name": "Fertility",
+                    "qty": 47.2
+                },
+                {
+                    "name": "%",
+                    "qty": 240.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Vegetables",
+                    "qty": 75.0
+                }
+            ],
+            "time": 0
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 288.0
+                },
+                {
+                    "name": "Fertility",
+                    "qty": 80.8
+                },
+                {
+                    "name": "%",
+                    "qty": 480.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Fruit",
+                    "qty": 100.0
+                }
+            ],
+            "time": 0
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 75.0
+                },
+                {
+                    "name": "Fertility",
+                    "qty": 30.299999999999997
+                },
+                {
+                    "name": "%",
+                    "qty": 180.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Canola",
+                    "qty": 33.0
+                }
+            ],
+            "time": 0
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 96.0
+                },
+                {
+                    "name": "Fertility",
+                    "qty": 40.4
+                },
+                {
+                    "name": "%",
+                    "qty": 240.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Poppy",
+                    "qty": 25.0
+                }
+            ],
+            "time": 0
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 164.0
+                },
+                {
+                    "name": "Fertility",
+                    "qty": 67.6
+                },
+                {
+                    "name": "%",
+                    "qty": 240.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Flowers",
+                    "qty": 30.0
+                }
+            ],
+            "time": 0
+        }
+    ]
+}

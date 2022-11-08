@@ -1,0 +1,133 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Canburncombustibleliquidsandgassesbutproduces[[AirPollution|Pollution]].",
+        "Designation": "WasteManagement",
+        "Electricity": "None",
+        "Footprint": "1x1",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 10.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "AdvancedDiesel",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": 0,
+        "Workers": 1
+    },
+    "name": "Flare",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Diesel",
+                    "qty": 10.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AirPollution",
+                    "qty": 20.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Hydrogen",
+                    "qty": 10.0
+                }
+            ],
+            "outputs": [],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "HeavyOil",
+                    "qty": 10.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AirPollution",
+                    "qty": 20.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "LightOil",
+                    "qty": 10.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AirPollution",
+                    "qty": 20.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Naphtha",
+                    "qty": 10.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AirPollution",
+                    "qty": 20.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "FuelGas",
+                    "qty": 10.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AirPollution",
+                    "qty": 20.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Ammonia",
+                    "qty": 10.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AirPollution",
+                    "qty": 20.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

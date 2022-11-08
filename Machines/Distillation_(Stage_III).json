@@ -1,0 +1,56 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Introducesextradistillationstepstoexpandoilprocessingcapabilities.",
+        "Designation": "CrudeOilRefining",
+        "Electricity": "None",
+        "Footprint": "5x5",
+        "Image": 0,
+        "Maintenance": 3,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 70.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "NaphthaProcessing",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "[[Distillation(StageI)]]</br>[[Distillation(StageII)]]",
+        "Workers": 10
+    },
+    "name": "Distillation(StageIII)",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "LightOil",
+                    "qty": 4.0
+                },
+                {
+                    "name": "SteamHi",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Naphtha",
+                    "qty": 4.0
+                },
+                {
+                    "name": "FuelGas",
+                    "qty": 6.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

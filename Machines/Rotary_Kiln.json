@@ -1,0 +1,56 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Performscalcinationprocessunderhightemperatures.Usedtoproduce[[Cement]].",
+        "Designation": "Metallurgy&Smelting",
+        "Electricity": "20KW",
+        "Footprint": "14x4",
+        "Image": 0,
+        "Maintenance": 2,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 60.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "CementProduction",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "1",
+        "Variants": "[[RotaryKiln(Gas)]]",
+        "Workers": 6
+    },
+    "name": "RotaryKiln",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Limestone",
+                    "qty": 6.0
+                },
+                {
+                    "name": "Coal",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Cement",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 6.0
+                }
+            ],
+            "time": 40
+        }
+    ]
+}

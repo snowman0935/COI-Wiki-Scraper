@@ -1,0 +1,56 @@
+{
+    "meta": {
+        "BoostByUnity": "no",
+        "Cargo": 0,
+        "Description": "Utilizesalargesetofcentrifugestoconcentrateuranium-235isotopeoutofnatural[[UraniumOre|Uranium]](aprocesscalledisotopeseparation).Theresultingproductisfissile[[UraniumPellets]],readytoundergoachainreactionina[[NuclearReactor]].Thepelletsarenotradioactiveyetandcanbehandledmanually.",
+        "Designation": "PowerProduction",
+        "Electricity": "200KW",
+        "Footprint": "14x8",
+        "Image": 0,
+        "Maintenance": 8,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 150.0
+                },
+                {
+                    "name": "ElectronicsII",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "NuclearReactor",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "",
+        "Workers": 14
+    },
+    "name": "EnrichmentPlant",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "YellowCake",
+                    "qty": 3.0
+                },
+                {
+                    "name": "HydrogenFluoride",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "UraniumPellets",
+                    "qty": 3.0
+                }
+            ],
+            "time": 60
+        }
+    ]
+}

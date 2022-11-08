@@ -1,0 +1,43 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": "infoicon|Water",
+        "Description": "Pumpswaterfromocean.<!--[sic]-->",
+        "Designation": "WaterExtraction&Processing",
+        "Electricity": "20KW",
+        "Footprint": "4x4onland<br/>12x6overocean",
+        "Image": 0,
+        "Maintenance": 2,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 50.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "ThermalDesalination",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "1",
+        "Variants": "[[SeawaterPump(L)]]",
+        "Workers": 2
+    },
+    "name": "SeawaterPump",
+    "recipies": [
+        {
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "Seawater",
+                    "qty": 20.0
+                }
+            ],
+            "time": 10
+        }
+    ]
+}

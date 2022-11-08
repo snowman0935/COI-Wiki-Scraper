@@ -1,0 +1,132 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Manualassemblylinethatproducesbasicproducts.",
+        "Designation": "GeneralMachines",
+        "Electricity": "None",
+        "Footprint": "6x5",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 25.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "Construction",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "1",
+        "Variants": "[[Assembly(Electric)]]</br>[[Assembly(Electric)II]]</br>[[Assembly(Robotic)]]</br>[[Assembly(Robotic)II]]",
+        "Workers": 4
+    },
+    "name": "Assembly(Manual)",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Iron",
+                    "qty": 3.0
+                },
+                {
+                    "name": "Wood",
+                    "qty": 4.0
+                },
+                {
+                    "name": "ConcreteSlab",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 4.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Electronics",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 4.0
+                }
+            ],
+            "time": 80
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Iron",
+                    "qty": 5.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MechanicalParts",
+                    "qty": 4.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Iron",
+                    "qty": 4.0
+                },
+                {
+                    "name": "MechanicalParts",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Electronics",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "VehicleParts",
+                    "qty": 4.0
+                }
+            ],
+            "time": 80
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Rubber",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Copper",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Electronics",
+                    "qty": 4.0
+                }
+            ],
+            "time": 60
+        }
+    ]
+}

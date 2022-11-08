@@ -1,0 +1,43 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": "infoicon|Water",
+        "Description": "Largepumpthatcanbeplacedontallercliffsbutrequiresmorepowertorun.",
+        "Designation": "WaterExtraction&Processing",
+        "Electricity": "60KW",
+        "Footprint": "4x4onland<br/>15x6overocean",
+        "Image": 0,
+        "Maintenance": 4,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 50.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "ThermalDesalination",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "2",
+        "Variants": "[[SeawaterPump]]",
+        "Workers": 3
+    },
+    "name": "SeawaterPump(Tall)",
+    "recipies": [
+        {
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "Seawater",
+                    "qty": 20.0
+                }
+            ],
+            "time": 10
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Produceshighpressuresteambyburningcoalthatboilswater.",
+        "Designation": "WaterExtraction&Processing",
+        "Electricity": "None",
+        "Footprint": "5x4",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "PowerGenerationII",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "1",
+        "Variants": "[[Boiler(Gas)]]</br>[[Boiler(Electric)]]",
+        "Workers": 4
+    },
+    "name": "Boiler(Coal)",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Coal",
+                    "qty": 3.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SteamHi",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 6.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Biomass",
+                    "qty": 12.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SteamHi",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 4.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 8.0
+                },
+                {
+                    "name": "AnimalFeed",
+                    "qty": 12.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SteamHi",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 4.0
+                }
+            ],
+            "time": 10
+        }
+    ]
+}

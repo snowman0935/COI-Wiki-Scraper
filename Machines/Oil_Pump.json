@@ -1,0 +1,43 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Pumps[[CrudeOil]]fromunderground.",
+        "Designation": "CrudeOilRefining",
+        "Electricity": "20KW",
+        "Footprint": "5x3",
+        "Image": 0,
+        "Maintenance": 2,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 30.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "BasicDiesel",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "",
+        "Workers": 1
+    },
+    "name": "OilPump",
+    "recipies": [
+        {
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "CrudeOil",
+                    "qty": 6.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "<!--notanerror...thereisn'tonein-game-->",
+        "Designation": "GeneralMachines",
+        "Electricity": "30KW",
+        "Footprint": "9x5*",
+        "Image": 0,
+        "Maintenance": 2,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 80.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "UraniumEnrichment",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "[[ConcreteMixer]]<br/>[[ConcreteMixerIII]]",
+        "Workers": 6
+    },
+    "name": "SettlingTank",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "GoldOrePowder",
+                    "qty": 24.0
+                },
+                {
+                    "name": "Acid",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "GoldOreConcentrate",
+                    "qty": 12.0
+                },
+                {
+                    "name": "ToxicSlurry",
+                    "qty": 12.0
+                }
+            ],
+            "time": 30
+        },
+        {
+            "inputs": [
+                {
+                    "name": "UraniumOreCrushed",
+                    "qty": 12.0
+                },
+                {
+                    "name": "Acid",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "YellowCake",
+                    "qty": 6.0
+                },
+                {
+                    "name": "ToxicSlurry",
+                    "qty": 6.0
+                }
+            ],
+            "time": 60
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Rock",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Acid",
+                    "qty": 6.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "HydrogenFluoride",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Slag",
+                    "qty": 2.0
+                }
+            ],
+            "time": 60
+        }
+    ]
+}

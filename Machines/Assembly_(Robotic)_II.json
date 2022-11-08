@@ -1,0 +1,247 @@
+{
+    "meta": {
+        "BoostByUnity": "no",
+        "Cargo": 0,
+        "Description": "Roboticassemblythatisfasterandcanproducemoreadvancedproducts.",
+        "Designation": "GeneralMachines",
+        "Electricity": "80KW",
+        "Footprint": "6x5",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": "5",
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIV",
+                    "qty": 60.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "Assembly(Robotic)II(research)",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "5",
+        "Variants": "[[Assembly(Manual)]]</br>[[Assembly(Electric)]]</br>[[Assembly(Electric)II]]</br>[[Assembly(Robotic)]]",
+        "Workers": 3
+    },
+    "name": "Assembly(Robotic)II",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 4.0
+                },
+                {
+                    "name": "ElectronicsII",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConstructionPartsIV",
+                    "qty": 2.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Electronics",
+                    "qty": 8.0
+                },
+                {
+                    "name": "ElectronicsII",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Steel",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "HouseholdAppliances",
+                    "qty": 8.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Glass",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Plastic",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Copper",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "PCB",
+                    "qty": 4.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Rubber",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Copper",
+                    "qty": 16.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Electronics",
+                    "qty": 16.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "PCB",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Electronics",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Silicon(poly)",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ElectronicsII",
+                    "qty": 2.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Steel",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Silicon(poly)",
+                    "qty": 12.0
+                },
+                {
+                    "name": "Glass",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SolarCell",
+                    "qty": 8.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Steel",
+                    "qty": 1.0
+                },
+                {
+                    "name": "SiliconWafer",
+                    "qty": 12.0
+                },
+                {
+                    "name": "Glass",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SolarCellMono",
+                    "qty": 8.0
+                }
+            ],
+            "time": 60
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Microchips",
+                    "qty": 2.0
+                },
+                {
+                    "name": "ElectronicsII",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ElectronicsIII",
+                    "qty": 2.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Steel",
+                    "qty": 1.0
+                },
+                {
+                    "name": "ElectronicsIII",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Server",
+                    "qty": 4.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "ElectronicsIII",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Plastic",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Steel",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConsumerElectronics",
+                    "qty": 4.0
+                }
+            ],
+            "time": 60
+        }
+    ]
+}

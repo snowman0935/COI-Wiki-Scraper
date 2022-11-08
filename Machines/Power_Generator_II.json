@@ -1,0 +1,56 @@
+{
+    "meta": {
+        "BoostByUnity": "no",
+        "Cargo": 0,
+        "Description": "Optimizedpowergeneratorwithlowerfrictionandbetterefficiency.Itjustrequiressomeplanning.",
+        "Designation": "PowerProduction",
+        "Electricity": "2500KW",
+        "Footprint": "7x5",
+        "Image": 0,
+        "Maintenance": 8,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 80.0
+                },
+                {
+                    "name": "Electronics",
+                    "qty": 180.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "PowerGenerationIV",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "2",
+        "Variants": "[[PowerGenerator]]",
+        "Workers": 0
+    },
+    "name": "PowerGeneratorII",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "MechanicalPower",
+                    "qty": 3000.0
+                },
+                {
+                    "name": "KW",
+                    "qty": -1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Electricity",
+                    "qty": 2500.0
+                }
+            ],
+            "time": 0
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "",
+        "Designation": "FoodProduction",
+        "Electricity": "50KW",
+        "Footprint": "7x5",
+        "Image": "",
+        "Maintenance": 4,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "",
+        "Variants": "",
+        "Workers": 8
+    },
+    "name": "BakingUnit",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Flour",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Bread",
+                    "qty": 12.0
+                }
+            ],
+            "time": 30
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Flour",
+                    "qty": 5.0
+                },
+                {
+                    "name": "Sugar",
+                    "qty": 2.0
+                },
+                {
+                    "name": "CookingOil",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Eggs",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Fruit",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Cake",
+                    "qty": 7.0
+                }
+            ],
+            "time": 30
+        }
+    ]
+}

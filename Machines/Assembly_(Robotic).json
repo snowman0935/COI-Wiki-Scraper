@@ -1,0 +1,525 @@
+{
+    "meta": {
+        "BoostByUnity": "no",
+        "Cargo": 0,
+        "Description": "Roboticassemblythatisfasterandcanproducemoreadvancedproducts.",
+        "Designation": "GeneralMachines",
+        "Electricity": "50KW",
+        "Footprint": "6x5",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": "5",
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 60.0
+                },
+                {
+                    "name": "ElectronicsII",
+                    "qty": 30.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "ConstructionIV",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "4",
+        "Variants": "[[Assembly(Manual)]]</br>[[Assembly(Electric)]]</br>[[Assembly(Electric)II]]</br>[[Assembly(Robotic)II]]",
+        "Workers": 3
+    },
+    "name": "Assembly(Robotic)",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Iron",
+                    "qty": 6.0
+                },
+                {
+                    "name": "Wood",
+                    "qty": 8.0
+                },
+                {
+                    "name": "ConcreteSlab",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 8.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Electronics",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 4.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Steel",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 4.0
+                },
+                {
+                    "name": "ElectronicsII",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConstructionPartsIV",
+                    "qty": 2.0
+                }
+            ],
+            "time": 60
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Steel",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MechanicalParts",
+                    "qty": 8.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Iron",
+                    "qty": 4.0
+                },
+                {
+                    "name": "MechanicalParts",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Electronics",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "VehicleParts",
+                    "qty": 4.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "VehicleParts",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Steel",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Glass",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "VehiclePartsII",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "VehiclePartsII",
+                    "qty": 4.0
+                },
+                {
+                    "name": "ElectronicsII",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "VehiclePartsIII",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MechanicalParts",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Electronics",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "LabEquipment",
+                    "qty": 16.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "LabEquipment",
+                    "qty": 8.0
+                },
+                {
+                    "name": "NitrogenTank",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "LabEquipmentII",
+                    "qty": 4.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "LabEquipmentII",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Glass",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "LabEquipmentIII",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "LabEquipmentIII",
+                    "qty": 8.0
+                },
+                {
+                    "name": "ElectronicsII",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "LabEquipmentIV",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Glass",
+                    "qty": 10.0
+                },
+                {
+                    "name": "Steel",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Wood",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "HouseholdGoods",
+                    "qty": 8.0
+                }
+            ],
+            "time": 15
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Electronics",
+                    "qty": 8.0
+                },
+                {
+                    "name": "ElectronicsII",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Steel",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "HouseholdAppliances",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Glass",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Plastic",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Copper",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "PCB",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Rubber",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Copper",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Electronics",
+                    "qty": 8.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "PCB",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Electronics",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Silicon(poly)",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ElectronicsII",
+                    "qty": 2.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Steel",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Silicon(poly)",
+                    "qty": 12.0
+                },
+                {
+                    "name": "Glass",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SolarCell",
+                    "qty": 8.0
+                }
+            ],
+            "time": 60
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Microchips",
+                    "qty": 2.0
+                },
+                {
+                    "name": "ElectronicsII",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ElectronicsIII",
+                    "qty": 2.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Steel",
+                    "qty": 1.0
+                },
+                {
+                    "name": "ElectronicsIII",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Server",
+                    "qty": 4.0
+                }
+            ],
+            "time": 80
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Steel",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Plastic",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MedicalEquipment",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MedicalEquipment",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Disinfectant",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MedicalSupplies",
+                    "qty": 8.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MedicalSupplies",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Antibiotics",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MedicalSuppliesII",
+                    "qty": 8.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MedicalSuppliesII",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Anesthetics",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Morphine",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MedicalSuppliesIII",
+                    "qty": 8.0
+                }
+            ],
+            "time": 10
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "<!--Noneprovidedin-game-->",
+        "Designation": "CrudeOilRefining",
+        "Electricity": "100KW",
+        "Footprint": "8x7",
+        "Image": 0,
+        "Maintenance": 6,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 100.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "HydrogenProduction",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "",
+        "Workers": 12
+    },
+    "name": "PolymerizationPlant",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Naphtha",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Chlorine",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Plastic",
+                    "qty": 16.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Ethanol",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Chlorine",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Plastic",
+                    "qty": 16.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

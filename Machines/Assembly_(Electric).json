@@ -1,0 +1,193 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Electrifiedassemblylinethatisfasterandcanproducemoreadvancedproducts.",
+        "Designation": "GeneralMachines",
+        "Electricity": "20KW",
+        "Footprint": "6x5",
+        "Image": 0,
+        "Maintenance": 2,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 30.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "ConstructionII",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "2",
+        "Variants": "[[Assembly(Manual)]]</br>[[Assembly(Electric)II]]</br>[[Assembly(Robotic)]]</br>[[Assembly(Robotic)II]]",
+        "Workers": 6
+    },
+    "name": "Assembly(Electric)",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Iron",
+                    "qty": 3.0
+                },
+                {
+                    "name": "Wood",
+                    "qty": 4.0
+                },
+                {
+                    "name": "ConcreteSlab",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Electronics",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 4.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Steel",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 4.0
+                }
+            ],
+            "time": 80
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Iron",
+                    "qty": 5.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MechanicalParts",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Iron",
+                    "qty": 4.0
+                },
+                {
+                    "name": "MechanicalParts",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Electronics",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "VehicleParts",
+                    "qty": 4.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MechanicalParts",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Electronics",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "LabEquipment",
+                    "qty": 8.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Glass",
+                    "qty": 10.0
+                },
+                {
+                    "name": "Steel",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Wood",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "HouseholdGoods",
+                    "qty": 8.0
+                }
+            ],
+            "time": 60
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Rubber",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Copper",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Electronics",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

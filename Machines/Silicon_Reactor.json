@@ -1,0 +1,52 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Purifies[[Silicon]]using[[Hydrogen]].TheprocessedSiliconcanbeusedin[[Electronics]].",
+        "Designation": "Metallurgy&Smelting",
+        "Electricity": "20KW",
+        "Footprint": "3x3",
+        "Image": 0,
+        "Maintenance": 1,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 20.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "Silicon",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "",
+        "Workers": 2
+    },
+    "name": "SiliconReactor",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "MoltenSilicon",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Hydrogen",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Silicon(poly)",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

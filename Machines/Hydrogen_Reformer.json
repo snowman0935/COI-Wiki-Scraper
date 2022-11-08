@@ -1,0 +1,56 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "",
+        "Designation": "CrudeOilRefining",
+        "Electricity": "40KW",
+        "Footprint": "9x6",
+        "Image": 0,
+        "Maintenance": 6,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 80.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "HydrogenProduction",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "",
+        "Workers": 18
+    },
+    "name": "HydrogenReformer",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "FuelGas",
+                    "qty": 12.0
+                },
+                {
+                    "name": "SteamHi",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Hydrogen",
+                    "qty": 12.0
+                },
+                {
+                    "name": "CarbonDioxide",
+                    "qty": 12.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

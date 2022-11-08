@@ -1,0 +1,86 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Decomposesaproductintosimplersubstancesbypassinganelectriccurrentthroughit.",
+        "Designation": "GeneralMachines",
+        "Electricity": "100KW",
+        "Footprint": "5x4",
+        "Image": 0,
+        "Maintenance": 2,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "Electrolysis",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "",
+        "Workers": 3
+    },
+    "name": "Electrolyzer",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Brine",
+                    "qty": 6.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Chlorine",
+                    "qty": 4.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Oxygen",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Hydrogen",
+                    "qty": 2.0
+                }
+            ],
+            "time": 80
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Ammonia",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Nitrogen",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Hydrogen",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

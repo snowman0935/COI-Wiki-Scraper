@@ -1,0 +1,214 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "",
+        "Designation": "FoodProduction",
+        "Electricity": "25KW",
+        "Footprint": "7x7",
+        "Image": "",
+        "Maintenance": 4,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 30.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "",
+        "Variants": "",
+        "Workers": 8
+    },
+    "name": "FoodProcessor",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Soybean",
+                    "qty": 6.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Sulfur",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Limestone",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Tofu",
+                    "qty": 8.0
+                },
+                {
+                    "name": "AnimalFeed",
+                    "qty": 3.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "ChickenCarcass",
+                    "qty": 10.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 3.0
+                },
+                {
+                    "name": "Salt",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Meat",
+                    "qty": 5.0
+                },
+                {
+                    "name": "MeatTrimmings",
+                    "qty": 2.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MeatTrimmings",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Flour",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Salt",
+                    "qty": 3.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Sausage",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Meat",
+                    "qty": 12.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MeatTrimmings",
+                    "qty": 16.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Potato",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Salt",
+                    "qty": 2.0
+                },
+                {
+                    "name": "CookingOil",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Plastic",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Snack",
+                    "qty": 12.0
+                },
+                {
+                    "name": "Biomass",
+                    "qty": 1.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Corn",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Salt",
+                    "qty": 2.0
+                },
+                {
+                    "name": "CookingOil",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Plastic",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Snack",
+                    "qty": 16.0
+                },
+                {
+                    "name": "Biomass",
+                    "qty": 1.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "SugarCane",
+                    "qty": 10.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Sugar",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Biomass",
+                    "qty": 2.0
+                }
+            ],
+            "time": 40
+        }
+    ]
+}

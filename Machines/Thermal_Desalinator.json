@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Heatssalinewaterintovaportocollectitascleanwater.Producesbrineasabyproduct.Notreallyefficientbutdoesthejob.",
+        "Designation": "WaterExtraction&Processing",
+        "Electricity": "40KW",
+        "Footprint": "11x4",
+        "Image": 0,
+        "Maintenance": 2,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 30.0
+                },
+                {
+                    "name": "Steel",
+                    "qty": 30.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "ThermalDesalination",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "",
+        "Workers": 4
+    },
+    "name": "ThermalDesalinator",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Seawater",
+                    "qty": 10.0
+                },
+                {
+                    "name": "SteamHi",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Water",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Brine",
+                    "qty": 4.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Seawater",
+                    "qty": 7.0
+                },
+                {
+                    "name": "SteamLo",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Water",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Brine",
+                    "qty": 3.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Seawater",
+                    "qty": 4.0
+                },
+                {
+                    "name": "SteamDepleted",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Water",
+                    "qty": 10.0
+                },
+                {
+                    "name": "Brine",
+                    "qty": 2.0
+                }
+            ],
+            "time": 40
+        }
+    ]
+}

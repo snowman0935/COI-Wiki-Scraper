@@ -1,0 +1,66 @@
+{
+    "meta": {
+        "BoostByUnity": "no",
+        "Cargo": 0,
+        "Description": "Providesaccesstomoreadvancedtechnologies.Important:thislabhastobeprovidedwith[[LabEquipmentIII|labequipment]]oncontinuousbasisinordertowork.Themorelabsyouhave,thefasteryouresearch.Labcanreturnconsumedproductsinformof[[recyclables]],if[[recycling]]technologyisunlocked.",
+        "Designation": "Buildings",
+        "Electricity": "150KW",
+        "Footprint": "15x15*",
+        "Image": 0,
+        "Maintenance": 16,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 220.0
+                },
+                {
+                    "name": "Glass",
+                    "qty": 60.0
+                },
+                {
+                    "name": "LabEquipmentIII",
+                    "qty": 60.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "ResearchLabIV(research)",
+        "ResearchSpeed": "5.6",
+        "Storage": 0,
+        "Tier": "4",
+        "Variants": "[[ResearchLab]]<br/>[[ResearchLabII]]<br/>[[ResearchLabIII]]<br/>[[ResearchLabV]]",
+        "Workers": 30
+    },
+    "name": "ResearchLabIV",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "LabEquipmentIII",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [],
+            "time": 15
+        },
+        {
+            "inputs": [
+                {
+                    "name": "LabEquipmentIII",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Recyclables",
+                    "qty": 3.0
+                }
+            ],
+            "time": 15
+        }
+    ]
+}

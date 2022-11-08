@@ -1,0 +1,43 @@
+{
+    "meta": {
+        "BoostByUnity": 0,
+        "Cargo": "infoicon|Biomass",
+        "Description": "Collectsorganicwaste(leftoversfromfoodtypically).Ifasettlementdoesnothavethismodulebuilt,alltheorganicwasteendsupingeneralwaste.",
+        "Designation": "Housing&Services",
+        "Electricity": "None",
+        "Footprint": "11x7",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 60.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "Recycling",
+        "ResearchSpeed": 0,
+        "Storage": "200",
+        "Tier": "1",
+        "Variants": "[[FoodMarket]]<br/>[[FoodMarketII]]<br/>[[Transformer]]<br/>[[WaterFacility]]<br/>[[HouseholdGoodsModule]]<br/>[[HouseholdAppliancesModule]]<br/>[[HouseholdElectronicsModule]]<br/>[[WasteCollection]]<br/>[[RecyclablesCollection]]<br/>[[Clinic]]",
+        "Workers": 6
+    },
+    "name": "BiomassCollection",
+    "recipies": [
+        {
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "Biomass",
+                    "qty": -1.0
+                }
+            ],
+            "time": 60
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "BoostByUnity": "no",
+        "Cargo": 0,
+        "Description": "Recyclingcantransformyourisland'seconomyinasignificantwayasitallowstorecoveraportionofrawmaterialsfromvarioussourceslikesettlement,[[maintenance]],or[[research]].Recyclingreducestheneedforrawmineralsextractionandthusalsoextendslongevityofdeposits.Placesthatsupportrecyclingwillreturn'[[Recyclables]]'.Thisproductcanbeseparatedviawastesortingplantintoscraps(suchas[[IronScrap|iron]]or[[CopperScrap|copperscraps]])whichcanbesenttoanyfurnaceforsmelting.Theratioofmaterialsrecycledisbasedon'Recyclingefficiency'andmoreaboutthatisexplainedinthewastesortingplant.",
+        "Designation": "WasteManagement",
+        "Electricity": "300KW",
+        "Footprint": "29x9",
+        "Image": "",
+        "Maintenance": 20,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 400.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "Recycling",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "",
+        "Variants": "",
+        "Workers": 45
+    },
+    "name": "WasteSortingPlant",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Recyclables",
+                    "qty": 48.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "IronScrap",
+                    "qty": -1.0
+                },
+                {
+                    "name": "CopperScrap",
+                    "qty": -1.0
+                },
+                {
+                    "name": "GoldScrap",
+                    "qty": -1.0
+                },
+                {
+                    "name": "BrokenGlass",
+                    "qty": -1.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

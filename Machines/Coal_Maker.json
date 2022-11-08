@@ -1,0 +1,52 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Uses[[Wood]]tocreate[[Coal]]butitisquiteinefficient.",
+        "Designation": "Metallurgy&Smelting",
+        "Electricity": "None",
+        "Footprint": "5x3",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 20.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": 0,
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": 0,
+        "Workers": 2
+    },
+    "name": "CoalMaker",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Wood",
+                    "qty": 20.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Coal",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 16.0
+                }
+            ],
+            "time": 40
+        }
+    ]
+}

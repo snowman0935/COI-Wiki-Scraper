@@ -1,0 +1,235 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Performsgeneralchemicalproduction.",
+        "Designation": "CrudeOilRefining",
+        "Electricity": "100KW",
+        "Footprint": "7x7",
+        "Image": 0,
+        "Maintenance": 8,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 120.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "ChemicalPlantII(Research)",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "2",
+        "Variants": "[[ChemicalPlant]]",
+        "Workers": 16
+    },
+    "name": "ChemicalPlantII",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Ammonia",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Nitrogen",
+                    "qty": 12.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "FertilizerI",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Hydrogen",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Nitrogen",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Ammonia",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Nitrogen",
+                    "qty": 6.0
+                },
+                {
+                    "name": "Steel",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "NitrogenTank",
+                    "qty": 4.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Ethanol",
+                    "qty": 5.0
+                },
+                {
+                    "name": "CookingOil",
+                    "qty": 12.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Diesel",
+                    "qty": 18.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Hydrogen",
+                    "qty": 8.0
+                },
+                {
+                    "name": "CarbonDioxide",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "FuelGas",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Coal",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Chlorine",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Graphite",
+                    "qty": 8.0
+                },
+                {
+                    "name": "SourWater",
+                    "qty": 4.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "CarbonDioxide",
+                    "qty": 24.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Graphite",
+                    "qty": 1.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Ethanol",
+                    "qty": 3.0
+                },
+                {
+                    "name": "Plastic",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Disinfectant",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Ammonia",
+                    "qty": 2.0
+                },
+                {
+                    "name": "HydrogenFluoride",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Steel",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Anesthetics",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Poppy",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Acid",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Glass",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Morphine",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

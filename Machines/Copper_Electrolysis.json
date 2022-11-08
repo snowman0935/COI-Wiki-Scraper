@@ -1,0 +1,71 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Purifiescopperbyelectrolyticrefiningtoover99.95%purity.",
+        "Designation": "Metallurgy&Smelting",
+        "Electricity": "80KW",
+        "Footprint": "7x5",
+        "Image": 0,
+        "Maintenance": 4,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 30.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "CopperRefinement",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": 0,
+        "Workers": 5
+    },
+    "name": "CopperElectrolysis",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "ImpureCopper",
+                    "qty": 16.0
+                },
+                {
+                    "name": "Acid",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Copper",
+                    "qty": 16.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "ImpureCopper",
+                    "qty": 16.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Copper",
+                    "qty": 13.0
+                }
+            ],
+            "time": 40
+        }
+    ]
+}

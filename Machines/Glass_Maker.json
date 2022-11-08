@@ -1,0 +1,52 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Castsmoltenglassintoglasssheets.",
+        "Designation": "Metallurgy&Smelting",
+        "Electricity": "80KW",
+        "Footprint": "12x5",
+        "Image": 0,
+        "Maintenance": 4,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 50.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "GlassMaking&Goods",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "1",
+        "Variants": "[[GlassMakerII]]",
+        "Workers": 6
+    },
+    "name": "GlassMaker",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "MoltenGlass",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Glass",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Slag",
+                    "qty": 2.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

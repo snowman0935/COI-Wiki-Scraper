@@ -1,0 +1,48 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Castsmoltenglassintoglasssheetsandwithmuchgreaterefficiency.",
+        "Designation": "Metallurgy&Smelting",
+        "Electricity": "200KW",
+        "Footprint": "28x5",
+        "Image": 0,
+        "Maintenance": 8,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 120.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "GlassMakingII",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "2",
+        "Variants": "[[GlassMaker]]",
+        "Workers": 14
+    },
+    "name": "GlassMakerII",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "MoltenGlass",
+                    "qty": 16.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Glass",
+                    "qty": 24.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

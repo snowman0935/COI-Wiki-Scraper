@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Performsacryogenicdistillationprocessattemperaturesreaching-200\u00baCtoseparateatmosphericairintoitsprimarycomponents-[[Oxygen]]and[[Nitrogen]].",
+        "Designation": "GeneralMachines",
+        "Electricity": "60KW",
+        "Footprint": "6x9",
+        "Image": 0,
+        "Maintenance": 6,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 100.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "Biofuel",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "",
+        "Workers": 6
+    },
+    "name": "AirSeparator",
+    "recipies": [
+        {
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "Oxygen",
+                    "qty": 12.0
+                },
+                {
+                    "name": "Nitrogen",
+                    "qty": 12.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

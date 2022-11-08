@@ -1,0 +1,138 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "",
+        "Designation": "WasteManagement",
+        "Electricity": "None",
+        "Footprint": "3x2",
+        "Image": "",
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 15.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "Burner",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "",
+        "Variants": "",
+        "Workers": 1
+    },
+    "name": "Burner(Solid)",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Waste",
+                    "qty": 6.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AirPollution",
+                    "qty": 3.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Biomass",
+                    "qty": 6.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AirPollution",
+                    "qty": 2.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "AnimalFeed",
+                    "qty": 6.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AirPollution",
+                    "qty": 2.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MeatTrimmings",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AirPollution",
+                    "qty": 3.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "ChickenCarcass",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AirPollution",
+                    "qty": 3.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Sulfur",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AirPollution",
+                    "qty": 8.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Sludge",
+                    "qty": 6.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AirPollution",
+                    "qty": 6.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Introducesextradistillationstepstoexpandoilprocessingcapabilities.",
+        "Designation": "CrudeOilRefining",
+        "Electricity": "None",
+        "Footprint": "5x5",
+        "Image": 0,
+        "Maintenance": 3,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 70.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "AdvancedDiesel",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "[[Distillation(StageI)]]</br>[[Distillation(StageIII)]]",
+        "Workers": 8
+    },
+    "name": "Distillation(StageII)",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "MediumOil",
+                    "qty": 16.0
+                },
+                {
+                    "name": "SteamHi",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Diesel",
+                    "qty": 12.0
+                },
+                {
+                    "name": "LightOil",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

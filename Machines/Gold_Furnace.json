@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "",
+        "Designation": "Metallurgy&Smelting",
+        "Electricity": "120KW",
+        "Footprint": "9x5*",
+        "Image": "",
+        "Maintenance": 2,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 70.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "UraniumEnrichment",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "",
+        "Variants": "",
+        "Workers": 6
+    },
+    "name": "GoldFurnace",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "GoldOreConcentrate",
+                    "qty": 6.0
+                },
+                {
+                    "name": "Sand",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Gold",
+                    "qty": 3.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 6.0
+                }
+            ],
+            "time": 30
+        },
+        {
+            "inputs": [
+                {
+                    "name": "GoldScrap",
+                    "qty": 3.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Gold",
+                    "qty": 3.0
+                },
+                {
+                    "name": "Exhaust",
+                    "qty": 3.0
+                }
+            ],
+            "time": 30
+        }
+    ]
+}

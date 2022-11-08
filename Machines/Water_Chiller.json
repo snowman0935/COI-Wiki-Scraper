@@ -1,0 +1,48 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "",
+        "Designation": "WaterExtraction&Processing",
+        "Electricity": "80KW",
+        "Footprint": "4x4",
+        "Image": 0,
+        "Maintenance": 2,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "Datacenter",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "",
+        "Workers": 3
+    },
+    "name": "WaterChiller",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": 10.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ChilledWater",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "meta": {
+        "BoostByUnity": "no",
+        "Cargo": "infoicon|Diesel",
+        "Description": "Burns[[Diesel]]tocreate[[Electricity]].",
+        "Designation": "PowerProduction",
+        "Electricity": "180KW",
+        "Footprint": "3x3",
+        "Image": 0,
+        "Maintenance": 6,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 20.0
+                },
+                {
+                    "name": "Electronics",
+                    "qty": 20.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "Power&Maintenance",
+        "ResearchSpeed": 0,
+        "Storage": "20",
+        "Tier": 0,
+        "Variants": 0,
+        "Workers": 2
+    },
+    "name": "DieselGenerator",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Diesel",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Electricity",
+                    "qty": 180.0
+                },
+                {
+                    "name": "AirPollution",
+                    "qty": 1.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "High-powermixerthatcreates[[ConcreteSlab]]s.Alsoprovidesalternativerecipesforconcrete.",
+        "Designation": "GeneralMachines",
+        "Electricity": "40KW",
+        "Footprint": "6x5*",
+        "Image": 0,
+        "Maintenance": 4,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "MixerII",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "2",
+        "Variants": "[[ConcreteMixer]]<br/>[[ConcreteMixerIII]]",
+        "Workers": 7
+    },
+    "name": "ConcreteMixerII",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Cement",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Sand",
+                    "qty": 2.0
+                },
+                {
+                    "name": "SlagCrushed",
+                    "qty": 6.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConcreteSlab",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Cement",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Sand",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Gravel",
+                    "qty": 6.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConcreteSlab",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

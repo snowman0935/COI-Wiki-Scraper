@@ -1,0 +1,106 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "EmploysmicroorganismstoconvertsugarsIntootherusefulsubstancessuchasethanol.Themicroorganismsemployedherearenotgettinganysalary(theyjustlovesugar).",
+        "Designation": "GeneralMachines",
+        "Electricity": "5KW",
+        "Footprint": "8x6",
+        "Image": 0,
+        "Maintenance": 2,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "Fermentation",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "",
+        "Variants": 0,
+        "Workers": 4
+    },
+    "name": "FermentationTank",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Sugar",
+                    "qty": 8.0
+                },
+                {
+                    "name": "Oxygen",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Ethanol",
+                    "qty": 4.0
+                },
+                {
+                    "name": "CarbonDioxide",
+                    "qty": 8.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "CornMash",
+                    "qty": 6.0
+                },
+                {
+                    "name": "Oxygen",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Ethanol",
+                    "qty": 3.0
+                },
+                {
+                    "name": "CarbonDioxide",
+                    "qty": 6.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Sugar",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Ammonia",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Oxygen",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Antibiotics",
+                    "qty": 8.0
+                },
+                {
+                    "name": "CarbonDioxide",
+                    "qty": 4.0
+                }
+            ],
+            "time": 80
+        }
+    ]
+}

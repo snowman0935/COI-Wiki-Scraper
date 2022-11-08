@@ -1,0 +1,79 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "",
+        "Designation": "Metallurgy&Smelting",
+        "Electricity": "20KW",
+        "Footprint": "14x4",
+        "Image": "",
+        "Maintenance": 3,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 60.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "RotaryKiln(Gas)(research)",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "2",
+        "Variants": "[[RotaryKiln]]",
+        "Workers": 10
+    },
+    "name": "RotaryKiln(Gas)",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Limestone",
+                    "qty": 12.0
+                },
+                {
+                    "name": "FuelGas",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Cement",
+                    "qty": 4.0
+                },
+                {
+                    "name": "CarbonDioxide",
+                    "qty": 12.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Limestone",
+                    "qty": 12.0
+                },
+                {
+                    "name": "Hydrogen",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Cement",
+                    "qty": 4.0
+                },
+                {
+                    "name": "CarbonDioxide",
+                    "qty": 8.0
+                }
+            ],
+            "time": 40
+        }
+    ]
+}

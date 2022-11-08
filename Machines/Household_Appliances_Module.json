@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "BoostByUnity": 0,
+        "Cargo": "infoicon|HouseholdAppliances|new=yes",
+        "Description": "Providesapplianceselectronicstotheattached[[settlement]]whichgeneratesextra[[Unity]].",
+        "Designation": "Housing&Services",
+        "Electricity": "40KW",
+        "Footprint": "11x7",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": "8",
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 80.0
+                },
+                {
+                    "name": "Glass",
+                    "qty": 80.0
+                },
+                {
+                    "name": "ElectronicsII",
+                    "qty": 20.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "HouseholdAppliances",
+        "ResearchSpeed": 0,
+        "Storage": "240",
+        "Tier": 0,
+        "Variants": "[[HouseholdGoodsModule]]<br/>[[ConsumerElectronicsModule]]",
+        "Workers": 20
+    },
+    "name": "HouseholdAppliancesModule",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "HouseholdAppliances",
+                    "qty": -1.0
+                }
+            ],
+            "outputs": [],
+            "time": 60
+        }
+    ]
+}

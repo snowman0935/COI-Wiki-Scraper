@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Providespermanentdisposalofgasessuchas[[CarbonDioxide|carbondioxide]]bydissolvingtheminaliquidandinjectingthemunderpressureintotheground.Hasnopollutioneffect.",
+        "Designation": "WasteManagement",
+        "Electricity": "100KW",
+        "Footprint": "6x4*",
+        "Image": 0,
+        "Maintenance": 4,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 50.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "WastewaterTreatment(research)",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "",
+        "Variants": "",
+        "Workers": 4
+    },
+    "name": "GasInjectionPump",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "CarbonDioxide",
+                    "qty": 12.0
+                },
+                {
+                    "name": "Seawater",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [],
+            "time": 10
+        }
+    ]
+}

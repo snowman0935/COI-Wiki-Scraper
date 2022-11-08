@@ -1,0 +1,136 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Producessyntheticrubber.",
+        "Designation": "CrudeOilRefining",
+        "Electricity": "80KW",
+        "Footprint": "8x6*",
+        "Image": 0,
+        "Maintenance": 2,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 60.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "SyntheticRubber",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "",
+        "Workers": 6
+    },
+    "name": "RubberMaker",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Naphtha",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Sulfur",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Rubber",
+                    "qty": 6.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Naphtha",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Coal",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Rubber",
+                    "qty": 6.0
+                },
+                {
+                    "name": "WasteWater",
+                    "qty": 1.0
+                }
+            ],
+            "time": 30
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Ethanol",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Sulfur",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Rubber",
+                    "qty": 6.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Diesel",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Sulfur",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Rubber",
+                    "qty": 6.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Diesel",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Coal",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Rubber",
+                    "qty": 6.0
+                },
+                {
+                    "name": "WasteWater",
+                    "qty": 2.0
+                }
+            ],
+            "time": 30
+        }
+    ]
+}

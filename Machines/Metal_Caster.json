@@ -1,0 +1,63 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Casts[[:Category:Moltenproducts|moltenmaterials]]intoslabs.",
+        "Designation": "Metallurgy&Smelting",
+        "Electricity": "None",
+        "Footprint": "7x5",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 30.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "IronSmelting(FromScrap)",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "1",
+        "Variants": "[[MetalCasterII]]",
+        "Workers": 2
+    },
+    "name": "MetalCaster",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "MoltenIron",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Iron",
+                    "qty": 8.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MoltenCopper",
+                    "qty": 8.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ImpureCopper",
+                    "qty": 8.0
+                }
+            ],
+            "time": 40
+        }
+    ]
+}

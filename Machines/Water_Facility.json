@@ -1,0 +1,48 @@
+{
+    "meta": {
+        "BoostByUnity": 0,
+        "Cargo": "infoicon|Water<br/>infoicon|WasteWater",
+        "Description": "Provides[[Food]]forattached[[settlement]].AsettlementneedstohaveatleastoneFoodMarketattachedotherwiseitspopulationwillstarve.",
+        "Designation": "Housing&Services",
+        "Electricity": "20KW",
+        "Footprint": "11x7",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "SettlementWater",
+        "ResearchSpeed": 0,
+        "Storage": "120(each)",
+        "Tier": "",
+        "Variants": "[[FoodMarket]]<br/>[[Transformer]]<br/>[[HouseholdGoodsModule]]<br/>[[HouseholdElectronicsModule]]",
+        "Workers": 6
+    },
+    "name": "WaterFacility",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Water",
+                    "qty": -1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "WasteWater",
+                    "qty": -1.0
+                }
+            ],
+            "time": 60
+        }
+    ]
+}

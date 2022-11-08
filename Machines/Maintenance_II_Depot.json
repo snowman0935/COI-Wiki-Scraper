@@ -1,0 +1,79 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": "infoicon|MaintenanceII|new=yes",
+        "Description": "Convertsproductsinto[[maintenance]]whichisdistributedtoallmachines,buildings,and[[:Category:Vehicles|vehicles]]thatneedit.Importantasifthereisnotenoughmaintenance,vehiclesandmachinescanbreakdowntemporarily.",
+        "Designation": "Buildings",
+        "Electricity": "100KW",
+        "Footprint": "7x6",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 50.0
+                },
+                {
+                    "name": "ElectronicsII",
+                    "qty": 20.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "Electronics&Maintenance",
+        "ResearchSpeed": 0,
+        "Storage": "960",
+        "Tier": "3",
+        "Variants": "[[MaintenanceDepot(Basic)]]<br/>[[MaintenanceDepot]]<br/>[[MaintenanceIIIDepot]]",
+        "Workers": 28
+    },
+    "name": "MaintenanceIIDepot",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "MechanicalParts",
+                    "qty": 4.0
+                },
+                {
+                    "name": "ElectronicsII",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MaintenanceII",
+                    "qty": 80.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "MechanicalParts",
+                    "qty": 4.0
+                },
+                {
+                    "name": "ElectronicsII",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MaintenanceII",
+                    "qty": 80.0
+                },
+                {
+                    "name": "Recyclables",
+                    "qty": 4.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

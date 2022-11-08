@@ -1,0 +1,137 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "High-powermixerthatcreates[[ConcreteSlab]]s.",
+        "Designation": "GeneralMachines",
+        "Electricity": "20KW",
+        "Footprint": "6x5*",
+        "Image": 0,
+        "Maintenance": 2,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 40.0
+                },
+                {
+                    "name": "Electronics",
+                    "qty": 10.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "ConcreteProduction",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "1",
+        "Variants": "[[ConcreteMixerII]]<br/>[[ConcreteMixerIII]]",
+        "Workers": 4
+    },
+    "name": "ConcreteMixer",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "Cement",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Sand",
+                    "qty": 2.0
+                },
+                {
+                    "name": "SlagCrushed",
+                    "qty": 6.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConcreteSlab",
+                    "qty": 8.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Cement",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Sand",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Gravel",
+                    "qty": 6.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConcreteSlab",
+                    "qty": 8.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Cement",
+                    "qty": 2.0
+                },
+                {
+                    "name": "SlagCrushed",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConcreteSlab",
+                    "qty": 4.0
+                }
+            ],
+            "time": 40
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Cement",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Gravel",
+                    "qty": 1.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "ConcreteSlab",
+                    "qty": 4.0
+                }
+            ],
+            "time": 40
+        }
+    ]
+}

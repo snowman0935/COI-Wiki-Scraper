@@ -1,0 +1,117 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Allowsreleaseofgassesintoatmosphere.Somegassessuchas[[Exhaust]]cause[[AirPollution]].",
+        "Designation": "WasteManagement",
+        "Electricity": "None",
+        "Footprint": "2x2",
+        "Image": "",
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 10.0
+                },
+                {
+                    "name": "Concreteslab",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "PipesII",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "",
+        "Variants": "",
+        "Workers": 0
+    },
+    "name": "SmokeStack(Large)",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "SteamDepleted",
+                    "qty": 200.0
+                }
+            ],
+            "outputs": [],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "SteamHi",
+                    "qty": 200.0
+                }
+            ],
+            "outputs": [],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "SteamLo",
+                    "qty": 200.0
+                }
+            ],
+            "outputs": [],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Oxygen",
+                    "qty": 200.0
+                }
+            ],
+            "outputs": [],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Nitrogen",
+                    "qty": 200.0
+                }
+            ],
+            "outputs": [],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "Exhaust",
+                    "qty": 200.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AirPollution",
+                    "qty": 100.0
+                }
+            ],
+            "time": 20
+        },
+        {
+            "inputs": [
+                {
+                    "name": "CarbonDioxide",
+                    "qty": 200.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AirPollution",
+                    "qty": 50.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

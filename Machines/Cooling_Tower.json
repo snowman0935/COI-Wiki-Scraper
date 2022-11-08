@@ -1,0 +1,82 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Improves[[Water]]efficiencyofapowerplantbyrecoveringsome[[Steam]]backtoWater.",
+        "Designation": "WaterExtraction&Processing",
+        "Electricity": "None",
+        "Footprint": "4x4",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 30.0
+                },
+                {
+                    "name": "ConcreteSlab",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "WaterRecovery",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": "1",
+        "Variants": "[[CoolingTower(Large)]]",
+        "Workers": 2
+    },
+    "name": "CoolingTower",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "SteamHi",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Water",
+                    "qty": 2.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "SteamLo",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Water",
+                    "qty": 2.0
+                }
+            ],
+            "time": 10
+        },
+        {
+            "inputs": [
+                {
+                    "name": "SteamDepleted",
+                    "qty": 4.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Water",
+                    "qty": 2.0
+                }
+            ],
+            "time": 10
+        }
+    ]
+}

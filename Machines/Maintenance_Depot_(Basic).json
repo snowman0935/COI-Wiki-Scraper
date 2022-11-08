@@ -1,0 +1,52 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": "infoicon|MaintenanceI",
+        "Description": "Convertsproductsinto[[maintenance]]whichisdistributedtoallmachines,buildings,and[[:Category:Vehicles|vehicles]]thatneedit.Importantasifthereisnotenoughmaintenance,vehiclesandmachinescanbreakdowntemporarily.",
+        "Designation": "Buildings",
+        "Electricity": "25KW",
+        "Footprint": "7x6",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionParts",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "Power&Maintenance",
+        "ResearchSpeed": 0,
+        "Storage": "630",
+        "Tier": "1",
+        "Variants": "[[MaintenanceDepot]]<br/>[[MaintenanceIIDepot]]<br/>[[MaintenanceIIIDepot]]",
+        "Workers": 6
+    },
+    "name": "MaintenanceDepot(Basic)",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "MechanicalParts",
+                    "qty": 2.0
+                },
+                {
+                    "name": "Electronics",
+                    "qty": 1.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MaintenanceI",
+                    "qty": 35.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}

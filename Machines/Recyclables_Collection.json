@@ -1,0 +1,43 @@
+{
+    "meta": {
+        "BoostByUnity": 0,
+        "Cargo": "infoicon|Recyclables|new=yes",
+        "Description": "",
+        "Designation": "Housing&Services",
+        "Electricity": "None",
+        "Footprint": "11x7",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 60.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "SettlementRecycling",
+        "ResearchSpeed": 0,
+        "Storage": "200",
+        "Tier": "1",
+        "Variants": "[[WasteCollection]]<br/>[[BiomassCollection]]",
+        "Workers": 12
+    },
+    "name": "RecyclablesCollection",
+    "recipies": [
+        {
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "Recyclables",
+                    "qty": -1.0
+                }
+            ],
+            "time": 60
+        }
+    ]
+}

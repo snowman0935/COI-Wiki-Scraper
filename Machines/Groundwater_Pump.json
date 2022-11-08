@@ -1,0 +1,43 @@
+{
+    "meta": {
+        "BoostByUnity": 0,
+        "Cargo": "infoicon|Water",
+        "Description": "Pumpswaterfromthegrounddepositwhichisreplenishedduringrain.Hastobebuiltontopofagroundwaterdeposit.",
+        "Designation": "WaterExtraction&Processing",
+        "Electricity": "30KW",
+        "Footprint": "6x4*",
+        "Image": 0,
+        "Maintenance": 4,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsII",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "GroundwaterPump",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": 0,
+        "Workers": 2
+    },
+    "name": "GroundwaterPump",
+    "recipies": [
+        {
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "Water",
+                    "qty": 8.0
+                }
+            ],
+            "time": 10
+        }
+    ]
+}

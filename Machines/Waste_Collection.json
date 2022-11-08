@@ -1,0 +1,43 @@
+{
+    "meta": {
+        "BoostByUnity": 0,
+        "Cargo": "infoicon|Waste|new=yes",
+        "Description": "",
+        "Designation": "Housing&Services",
+        "Electricity": "None",
+        "Footprint": "11x7",
+        "Image": 0,
+        "Maintenance": 0,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsI",
+                    "qty": 25.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "SettlementRecycling",
+        "ResearchSpeed": 0,
+        "Storage": "200",
+        "Tier": "",
+        "Variants": "[[WasteCollection]]<br/>[[BiomassCollection]]",
+        "Workers": 4
+    },
+    "name": "WasteCollection",
+    "recipies": [
+        {
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "Waste",
+                    "qty": -1.0
+                }
+            ],
+            "time": 60
+        }
+    ]
+}

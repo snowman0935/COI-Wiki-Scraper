@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "BoostByUnity": "yes",
+        "Cargo": 0,
+        "Description": "Makes[[SourWater]]usefulbyconvertingitinto[[Acid]].Acidcanbeusedforinstanceintheproductionofcopper.",
+        "Designation": "CrudeOilRefining",
+        "Electricity": "40KW",
+        "Footprint": "5x9*",
+        "Image": 0,
+        "Maintenance": 4,
+        "MaintenanceII": 0,
+        "MaintenanceIII": 0,
+        "Recipe": {
+            "inputs": [
+                {
+                    "name": "ConstructionPartsIII",
+                    "qty": 40.0
+                }
+            ],
+            "outputs": [],
+            "time": 0
+        },
+        "Research": "SulfurProcessing",
+        "ResearchSpeed": 0,
+        "Storage": 0,
+        "Tier": 0,
+        "Variants": "",
+        "Workers": 12
+    },
+    "name": "SourWaterStripper",
+    "recipies": [
+        {
+            "inputs": [
+                {
+                    "name": "SourWater",
+                    "qty": 12.0
+                },
+                {
+                    "name": "SteamHi",
+                    "qty": 2.0
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Sulfur",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Ammonia",
+                    "qty": 4.0
+                },
+                {
+                    "name": "Water",
+                    "qty": 8.0
+                }
+            ],
+            "time": 20
+        }
+    ]
+}
