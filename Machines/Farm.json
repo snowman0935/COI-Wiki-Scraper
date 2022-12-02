@@ -33,7 +33,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 44.0
+                    "qty": 54.0
                 },
                 {
                     "name": "GreenManure",
@@ -52,7 +52,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 87.0
+                    "qty": 108.0
                 },
                 {
                     "name": "Fertility",
@@ -75,7 +75,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 128.0
+                    "qty": 160.0
                 },
                 {
                     "name": "Fertility",
@@ -98,7 +98,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 150.0
+                    "qty": 192.0
                 },
                 {
                     "name": "Fertility",
@@ -121,7 +121,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 116.0
+                    "qty": 144.0
                 },
                 {
                     "name": "Fertility",
@@ -144,7 +144,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 104.0
+                    "qty": 128.0
                 },
                 {
                     "name": "Fertility",
@@ -167,7 +167,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 66.0
+                    "qty": 84.0
                 },
                 {
                     "name": "Fertility",

@@ -37,7 +37,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 54.0
+                    "qty": 68.0
                 },
                 {
                     "name": "GreenManure",
@@ -56,7 +56,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 108.0
+                    "qty": 135.0
                 },
                 {
                     "name": "Fertility",
@@ -79,7 +79,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 160.0
+                    "qty": 200.0
                 },
                 {
                     "name": "Fertility",
@@ -102,7 +102,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 192.0
+                    "qty": 240.0
                 },
                 {
                     "name": "Fertility",
@@ -125,7 +125,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 144.0
+                    "qty": 180.0
                 },
                 {
                     "name": "Fertility",
@@ -148,7 +148,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 432.0
+                    "qty": 540.0
                 },
                 {
                     "name": "Fertility",
@@ -171,7 +171,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 128.0
+                    "qty": 160.0
                 },
                 {
                     "name": "Fertility",
@@ -194,7 +194,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 320.0
+                    "qty": 400.0
                 },
                 {
                     "name": "Fertility",
@@ -217,7 +217,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 84.0
+                    "qty": 105.0
                 },
                 {
                     "name": "Fertility",
@@ -240,7 +240,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 108.0
+                    "qty": 136.0
                 },
                 {
                     "name": "Fertility",
@@ -263,7 +263,7 @@
             "inputs": [
                 {
                     "name": "Water",
-                    "qty": 180.0
+                    "qty": 224.0
                 },
                 {
                     "name": "Fertility",
