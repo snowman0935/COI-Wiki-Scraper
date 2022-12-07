@@ -2,7 +2,7 @@
     "meta": {
         "BoostByUnity": 0,
         "Cargo": "infoicon|Water<br/>infoicon|WasteWater",
-        "Description": "Provides[[Food]]forattached[[settlement]].AsettlementneedstohaveatleastoneFoodMarketattachedotherwiseitspopulationwillstarve.",
+        "Description": "Provides[[Water]]forattached[[settlement]].",
         "Designation": "Housing&Services",
         "Electricity": "20KW",
         "Footprint": "11x7",
